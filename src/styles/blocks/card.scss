@@ -66,6 +66,8 @@
   }
 
   &__button {
+    box-sizing: border-box;
+    display: block;
     width: 166px;
     height: 40px;
     background-color: $primary-color;
@@ -75,9 +77,10 @@
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 38px;
     text-align: center;
     border: 1px solid $primary-color;
+    text-decoration: none;
   }
 
   &__button:hover {
